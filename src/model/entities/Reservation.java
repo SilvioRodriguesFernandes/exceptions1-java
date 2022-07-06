@@ -62,12 +62,6 @@ public class Reservation {
 		this.checkOut = checkOut;
 	}
 	
-	public Reservation(Date checkIn, Date checkOut) {
-		super();
-		this.checkIn = checkIn;
-		this.checkOut = checkOut;
-	}
-
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
